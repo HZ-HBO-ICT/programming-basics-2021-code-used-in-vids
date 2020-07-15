@@ -11,11 +11,56 @@ products[8] = 'WC papier';
 products[9] = 'shampoo';
 
 // console.log(products.length);
+console.log("JavaScript is working!");
+
+let productList = [];
+
+productList[0] = "Tooth brush";
+productList[1] = "Crips";
+productList[2] = "Deodorant";
+productList[3] = "Tomato";
+productList[4] = "Lettuce";
+productList[5] = "Apples";
+
+console.log(productList);
+
+productList.push('Bananas');
+let lastElement = productList.pop();
+productList.splice(2, 2, "Pears", "Rice");
+
+console.log(lastElement);
 
 //1 forloop
 products.forEach(element => {
     console.log(element);
 });
+
+console.log("JavaScript is working!");
+
+let productList = [
+  "Tooth brush",
+  "Crips",
+  "Deodorant",
+  "Tomato",
+  "Lettuce",
+  "Apples"
+];
+
+// for (let i = 0; i < productList.length; i++) {
+//   console.log(productList[i]);
+// }
+
+// productList.forEach(function(value, index, arr){
+//   console.log(`using a foreach loop ${index}`, value);
+// });
+
+// map, filter and reduce
+let newProductList = productList.map(function(value, index, arr) {
+  return `Product ${index}: ${value}`;
+});
+
+console.log(newProductList);
+
 
 // products.forEach(function(element){
 //     console.log(element);

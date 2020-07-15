@@ -12,7 +12,7 @@ let myHomeCity = 'Tholen';
 let myTwitterAccount = 'rimmertzelle';
 let toDay = new Date().getFullYear();
 
-// loosely vs strongly typed, does not in the browser
+// loosely vs strongly typed, does not work in the browser
 // let message : string = 'Hello';
 // let amountOfMoney : number = 5;
 

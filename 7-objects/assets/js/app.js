@@ -1,3 +1,22 @@
+let myCar = {
+  colour: "red",
+  engine: 2.0,
+  wheels: 4,
+  honk: function() {
+    console.log("Honk, Honk", this.colour);
+  }
+};
+
+console.log(myCar);
+
+myCar.height = 1.4;
+myCar.drive = function() {
+  console.log("driving myCar");
+};
+
+myCar.drive();
+myCar.honk();
+
 // const me = {};
 
 const me = {
